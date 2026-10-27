@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AURA - Compañera IA & Bienestar</title>
+    
+    <!-- PWA Unique Identification Fix -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="AURA IA">
+    <meta name="application-name" content="AURA IA">
+    <meta name="theme-color" content="#070410">
+
+    <!-- Web App Manifest embedded via Data URI to prevent domain collisions -->
+    <link rel="manifest" href="data:application/manifest+json;utf8,%7B%22name%22%3A%22AURA%20IA%20Compa%C3%B1era%22%2C%22short_name%22%3A%22AURA%20IA%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23070410%22%2C%22theme_color%22%3A%22%23070410%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%20100%20100'%3E%3Cdefs%3E%3ClinearGradient%20id%3D'g'%20x1%3D'0%25'%20y1%3D'0%25'%20x2%3D'100%25'%20y2%3D'100%25'%3E%3Cstop%20offset%3D'0%25'%20stop-color%3D'%236366f1'%2F%3E%3Cstop%20offset%3D'50%25'%20stop-color%3D'%23a855f7'%2F%3E%3Cstop%20offset%3D'100%25'%20stop-color%3D'%23ec4899'%2F%3E%3C%2FlinearGradient%3E%3C%2Fdefs%3E%3Crect%20width%3D'100'%20height%3D'100'%20rx%3D'28'%20fill%3D'url(%23g)'%2F%3E%3Cpath%20d%3D'M50%2020%20L58%2042%20L80%2050%20L58%2058%20L50%2080%20L42%2058%20L20%2050%20L42%2042%20Z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%5D%7D">
+
     <!-- Dynamic SVG Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%236366f1'/><stop offset='50%' stop-color='%23a855f7'/><stop offset='100%' stop-color='%23ec4899'/></linearGradient></defs><rect width='100' height='100' rx='28' fill='url(%23g)'/><path d='M50 20 L58 42 L80 50 L58 58 L50 80 L42 58 L20 50 L42 42 Z' fill='%23ffffff'/></svg>">
     <!-- Tailwind CSS -->
